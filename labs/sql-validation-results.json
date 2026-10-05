@@ -1,0 +1,60 @@
+{
+  "server_version": "/opt/homebrew/bin/mysqld  Ver 9.3.0 for macos15.2 on arm64 (Homebrew)",
+  "scope": "通用SQL样例，不能替代MySQL8.4锁/复制/优化器实验",
+  "cases": [
+    {
+      "case": 1,
+      "passed": true,
+      "actual": "1\t200",
+      "expected": "1\t200"
+    },
+    {
+      "case": 2,
+      "passed": true,
+      "actual": "5\t4\t330\t82.5000",
+      "expected": "5\t4\t330\t82.5000"
+    },
+    {
+      "case": 3,
+      "passed": true,
+      "actual": "1\t2\n2\t1\n3\t1\n4\t0",
+      "expected": "1\t2\n2\t1\n3\t1\n4\t0"
+    },
+    {
+      "case": 4,
+      "passed": true,
+      "actual": "102\t1\t100\t1\n104\t2\tNULL\t2\n105\t3\t80\t1",
+      "expected": "102\t1\t100\t1\n104\t2\tNULL\t2\n105\t3\t80\t1"
+    },
+    {
+      "case": 5,
+      "passed": true,
+      "actual": "103\n102",
+      "expected": "103\n102"
+    },
+    {
+      "case": 6,
+      "passed": true,
+      "actual": "1\n3\n4",
+      "expected": "1\n3\n4"
+    },
+    {
+      "case": 7,
+      "passed": true,
+      "actual": "1\n0\n0",
+      "expected": "1\n0\n0"
+    },
+    {
+      "case": 8,
+      "passed": true,
+      "actual": "101\t200\n101\t100\t100",
+      "expected": "101\t200\n101\t100\t100"
+    },
+    {
+      "case": 9,
+      "passed": true,
+      "actual": "1\t2026-10-04\t2026-10-06\t3",
+      "expected": "1\t2026-10-04\t2026-10-06\t3"
+    }
+  ]
+}

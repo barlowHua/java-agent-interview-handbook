@@ -1,0 +1,478 @@
+[
+  {
+    "id": "01-java-language-q1",
+    "question": "Java 为什么是值传递？"
+  },
+  {
+    "id": "01-java-language-q2",
+    "question": "equals 和 hashCode 怎么设计？"
+  },
+  {
+    "id": "01-java-language-q3",
+    "question": "泛型擦除后还有什么意义？"
+  },
+  {
+    "id": "01-java-language-q4",
+    "question": "怎样实现真正可用的不可变对象？"
+  },
+  {
+    "id": "01-java-language-q5",
+    "question": "业务异常怎么分层？"
+  },
+  {
+    "id": "01-java-language-q6",
+    "question": "金额为什么不用 double？"
+  },
+  {
+    "id": "02-collections-q1",
+    "question": "HashMap 查询为什么通常很快？"
+  },
+  {
+    "id": "02-collections-q2",
+    "question": "为什么不默认用 LinkedList？"
+  },
+  {
+    "id": "02-collections-q3",
+    "question": "ConcurrentHashMap 为什么能并发读写？"
+  },
+  {
+    "id": "02-collections-q4",
+    "question": "computeIfAbsent 可以放心做远程查询吗？"
+  },
+  {
+    "id": "02-collections-q5",
+    "question": "安全集合为什么还会超卖？"
+  },
+  {
+    "id": "02-collections-q6",
+    "question": "三种常见迭代语义有什么差别？"
+  },
+  {
+    "id": "03-concurrency-q1",
+    "question": "volatile 能解决什么，不能解决什么？"
+  },
+  {
+    "id": "03-concurrency-q2",
+    "question": "synchronized 和 ReentrantLock 怎么选？"
+  },
+  {
+    "id": "03-concurrency-q3",
+    "question": "如何给业务设计线程池？"
+  },
+  {
+    "id": "03-concurrency-q4",
+    "question": "CompletableFuture 超时为什么还有后台流量？"
+  },
+  {
+    "id": "03-concurrency-q5",
+    "question": "ThreadLocal 为什么可能导致内存与数据问题？"
+  },
+  {
+    "id": "03-concurrency-q6",
+    "question": "虚拟线程适合直接替代所有线程池吗？"
+  },
+  {
+    "id": "04-jvm-q1",
+    "question": "堆、栈和元空间有什么区别？"
+  },
+  {
+    "id": "04-jvm-q2",
+    "question": "GC 怎样判断对象是否可回收？"
+  },
+  {
+    "id": "04-jvm-q3",
+    "question": "G1 为什么能控制停顿，却仍有长暂停？"
+  },
+  {
+    "id": "04-jvm-q4",
+    "question": "CPU 飙升怎么排查？"
+  },
+  {
+    "id": "04-jvm-q5",
+    "question": "如何证明是内存泄漏？"
+  },
+  {
+    "id": "04-jvm-q6",
+    "question": "为什么同名类会发生类型转换失败？"
+  },
+  {
+    "id": "05-spring-q1",
+    "question": "Spring 单例 Bean 为什么不一定线程安全？"
+  },
+  {
+    "id": "05-spring-q2",
+    "question": "AOP 的代理如何影响方法调用？"
+  },
+  {
+    "id": "05-spring-q3",
+    "question": "事务注解有哪些常见失效或误判场景？"
+  },
+  {
+    "id": "05-spring-q4",
+    "question": "REQUIRED、REQUIRES_NEW、NESTED 怎么选？"
+  },
+  {
+    "id": "05-spring-q5",
+    "question": "异步任务和事务怎么配合？"
+  },
+  {
+    "id": "05-spring-q6",
+    "question": "Spring Boot 自动配置如何排错？"
+  },
+  {
+    "id": "06-mysql-q1",
+    "question": "为什么建了索引仍然慢？"
+  },
+  {
+    "id": "06-mysql-q2",
+    "question": "RR 能否防止所有“幻读”？"
+  },
+  {
+    "id": "06-mysql-q3",
+    "question": "怎样定位和处理死锁？"
+  },
+  {
+    "id": "06-mysql-q4",
+    "question": "redo、undo、binlog 各解决什么？"
+  },
+  {
+    "id": "06-mysql-q5",
+    "question": "怎样防止库存超卖？"
+  },
+  {
+    "id": "06-mysql-q6",
+    "question": "什么时候需要分库分表？"
+  },
+  {
+    "id": "07-redis-q1",
+    "question": "怎样保证数据库与缓存一致？"
+  },
+  {
+    "id": "07-redis-q2",
+    "question": "Redis 锁怎样实现才安全？"
+  },
+  {
+    "id": "07-redis-q3",
+    "question": "缓存宕机怎么办？"
+  },
+  {
+    "id": "07-redis-q4",
+    "question": "大 key 和热 key 有什么区别？"
+  },
+  {
+    "id": "07-redis-q5",
+    "question": "AOF 每秒刷盘是否绝对最多丢一秒？"
+  },
+  {
+    "id": "07-redis-q6",
+    "question": "如何设计缓存键与 TTL？"
+  },
+  {
+    "id": "08-messaging-q1",
+    "question": "如何保证消息不丢？"
+  },
+  {
+    "id": "08-messaging-q2",
+    "question": "Kafka 的 exactly-once 是否等于只扣款一次？"
+  },
+  {
+    "id": "08-messaging-q3",
+    "question": "如何保证订单消息顺序？"
+  },
+  {
+    "id": "08-messaging-q4",
+    "question": "如何做消费者幂等？"
+  },
+  {
+    "id": "08-messaging-q5",
+    "question": "积压突然增加如何排查？"
+  },
+  {
+    "id": "08-messaging-q6",
+    "question": "重试队列和死信怎样设计？"
+  },
+  {
+    "id": "09-distributed-q1",
+    "question": "怎样解释 CAP 并用于业务设计？"
+  },
+  {
+    "id": "09-distributed-q2",
+    "question": "超时后的重试怎样安全？"
+  },
+  {
+    "id": "09-distributed-q3",
+    "question": "Outbox 保证了什么，还缺什么？"
+  },
+  {
+    "id": "09-distributed-q4",
+    "question": "2PC、TCC、Saga 怎么选？"
+  },
+  {
+    "id": "09-distributed-q5",
+    "question": "Raft 为什么需要多数派？"
+  },
+  {
+    "id": "09-distributed-q6",
+    "question": "最终一致性怎样验收？"
+  },
+  {
+    "id": "10-network-os-q1",
+    "question": "一个 HTTP 请求很慢，如何定位？"
+  },
+  {
+    "id": "10-network-os-q2",
+    "question": "为什么 TCP 可靠，业务仍会重复执行？"
+  },
+  {
+    "id": "10-network-os-q3",
+    "question": "线程数应该等于 CPU 核数吗？"
+  },
+  {
+    "id": "10-network-os-q4",
+    "question": "TIME_WAIT 多就需要调系统参数吗？"
+  },
+  {
+    "id": "10-network-os-q5",
+    "question": "为什么 CPU 不高但 load 很高？"
+  },
+  {
+    "id": "10-network-os-q6",
+    "question": "超时设置成 3 秒，为什么用户 10 秒后才收到失败？"
+  },
+  {
+    "id": "11-system-design-q1",
+    "question": "面试官让你设计秒杀，第一步是什么？"
+  },
+  {
+    "id": "11-system-design-q2",
+    "question": "容量估算如何避免拍脑袋？"
+  },
+  {
+    "id": "11-system-design-q3",
+    "question": "什么时候引入微服务？"
+  },
+  {
+    "id": "11-system-design-q4",
+    "question": "架构图怎样体现可靠性？"
+  },
+  {
+    "id": "11-system-design-q5",
+    "question": "Agent 服务为什么不能直接无限循环？"
+  },
+  {
+    "id": "11-system-design-q6",
+    "question": "设计到一半发现规模估计大十倍怎么办？"
+  },
+  {
+    "id": "12-reliability-q1",
+    "question": "如何为一个服务制定 SLO？"
+  },
+  {
+    "id": "12-reliability-q2",
+    "question": "CPU 不高，但接口很慢，如何排查？"
+  },
+  {
+    "id": "12-reliability-q3",
+    "question": "如何防止重试风暴？"
+  },
+  {
+    "id": "12-reliability-q4",
+    "question": "如何判断压测报告可信？"
+  },
+  {
+    "id": "12-reliability-q5",
+    "question": "一次线上事故应如何复盘？"
+  },
+  {
+    "id": "12-reliability-q6",
+    "question": "如何验证容灾方案？"
+  },
+  {
+    "id": "13-security-delivery-q1",
+    "question": "登录用户修改 URL 中的订单 ID 就能读别人订单，哪里错了？"
+  },
+  {
+    "id": "13-security-delivery-q2",
+    "question": "什么样的单元测试没有太大价值？"
+  },
+  {
+    "id": "13-security-delivery-q3",
+    "question": "如何测试一个“有时才失败”的并发问题？"
+  },
+  {
+    "id": "13-security-delivery-q4",
+    "question": "发布失败后回滚镜像就够了吗？"
+  },
+  {
+    "id": "13-security-delivery-q5",
+    "question": "readiness 和 liveness 有什么区别？"
+  },
+  {
+    "id": "13-security-delivery-q6",
+    "question": "怎样向面试官证明你重视安全？"
+  },
+  {
+    "id": "14-algorithms-q1",
+    "question": "如何证明二分查找不会死循环？"
+  },
+  {
+    "id": "14-algorithms-q2",
+    "question": "滑动窗口为什么不能解决所有子数组和问题？"
+  },
+  {
+    "id": "14-algorithms-q3",
+    "question": "Top K 为什么常用小根堆？"
+  },
+  {
+    "id": "14-algorithms-q4",
+    "question": "BFS 与 DFS 怎么选？"
+  },
+  {
+    "id": "14-algorithms-q5",
+    "question": "动态规划写不出来时先做什么？"
+  },
+  {
+    "id": "14-algorithms-q6",
+    "question": "现场代码写完后怎么自检？"
+  },
+  {
+    "id": "15-llm-foundations-q1",
+    "question": "LLM 为什么会幻觉？降低 temperature 能解决吗？"
+  },
+  {
+    "id": "15-llm-foundations-q2",
+    "question": "上下文很长，是不是可以把所有资料放进去？"
+  },
+  {
+    "id": "15-llm-foundations-q3",
+    "question": "prefill、decode、KV cache 与性能有什么关系？"
+  },
+  {
+    "id": "15-llm-foundations-q4",
+    "question": "embedding 能直接解决搜索问题吗？"
+  },
+  {
+    "id": "15-llm-foundations-q5",
+    "question": "结构化输出与 function calling 怎么选？"
+  },
+  {
+    "id": "15-llm-foundations-q6",
+    "question": "RAG、微调和提示词优化分别解决什么？"
+  },
+  {
+    "id": "15-llm-foundations-q7",
+    "question": "Java 工程师选模型最该看什么？"
+  },
+  {
+    "id": "16-rag-q1",
+    "question": "RAG 回答不准，你怎么定位？"
+  },
+  {
+    "id": "16-rag-q2",
+    "question": "chunk size 怎么选？"
+  },
+  {
+    "id": "16-rag-q3",
+    "question": "为什么要混合检索和 rerank？"
+  },
+  {
+    "id": "16-rag-q4",
+    "question": "多租户知识库怎样避免数据越权？"
+  },
+  {
+    "id": "16-rag-q5",
+    "question": "有资料但答案与事实不符，怎么评测？"
+  },
+  {
+    "id": "16-rag-q6",
+    "question": "RAG 如何处理无答案和互相矛盾的资料？"
+  },
+  {
+    "id": "16-rag-q7",
+    "question": "长上下文、微调出现后，RAG 还必要吗？"
+  },
+  {
+    "id": "17-agent-architecture-q1",
+    "question": "什么时候不应该使用 Agent？"
+  },
+  {
+    "id": "17-agent-architecture-q2",
+    "question": "工具 schema 怎么设计才容易正确调用？"
+  },
+  {
+    "id": "17-agent-architecture-q3",
+    "question": "Agent 状态怎么持久化和恢复？"
+  },
+  {
+    "id": "17-agent-architecture-q4",
+    "question": "对话记忆为什么不能只存聊天记录？"
+  },
+  {
+    "id": "17-agent-architecture-q5",
+    "question": "MCP 与 function calling 有什么区别？"
+  },
+  {
+    "id": "17-agent-architecture-q6",
+    "question": "多 Agent 什么时候值得做？"
+  },
+  {
+    "id": "17-agent-architecture-q7",
+    "question": "Java 项目怎样避免被 Agent 框架绑死？"
+  },
+  {
+    "id": "18-agent-production-q1",
+    "question": "你怎么证明 Agent 比原方案好？"
+  },
+  {
+    "id": "18-agent-production-q2",
+    "question": "LLM-as-a-judge 有哪些问题？"
+  },
+  {
+    "id": "18-agent-production-q3",
+    "question": "遇到 prompt injection 怎么防？"
+  },
+  {
+    "id": "18-agent-production-q4",
+    "question": "工具超时后 Agent 应该怎么重试？"
+  },
+  {
+    "id": "18-agent-production-q5",
+    "question": "线上响应突然变慢，如何排查？"
+  },
+  {
+    "id": "18-agent-production-q6",
+    "question": "如何降低 Agent 成本？"
+  },
+  {
+    "id": "18-agent-production-q7",
+    "question": "如何设计上线与回滚？"
+  },
+  {
+    "id": "19-project-interview-q1",
+    "question": "介绍一下你最有代表性的项目。"
+  },
+  {
+    "id": "19-project-interview-q2",
+    "question": "为什么不用更简单的方案？"
+  },
+  {
+    "id": "19-project-interview-q3",
+    "question": "这个性能提升数字怎么算的？"
+  },
+  {
+    "id": "19-project-interview-q4",
+    "question": "讲一次你主导处理的事故。"
+  },
+  {
+    "id": "19-project-interview-q5",
+    "question": "你与同事对技术方案有分歧怎么办？"
+  },
+  {
+    "id": "19-project-interview-q6",
+    "question": "为什么十年经验还要做工程师岗位？"
+  },
+  {
+    "id": "19-project-interview-q7",
+    "question": "没有生产 Agent 项目，如何回答相关问题？"
+  }
+]

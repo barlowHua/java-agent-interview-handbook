@@ -1,0 +1,336 @@
+{
+  "version": "2026-10-04-expanded",
+  "diagramCount": 41,
+  "documents": [
+    {
+      "id": "guide/00-start.md",
+      "title": "从这里开始：怎样把这套内容学成自己的能力",
+      "group": "学习导航",
+      "priority": "导学",
+      "questions": 0
+    },
+    {
+      "id": "guide/01-roadmap.md",
+      "title": "学习路线：先补短板，再扩广度",
+      "group": "学习导航",
+      "priority": "导学",
+      "questions": 0
+    },
+    {
+      "id": "guide/02-assessment.md",
+      "title": "入学诊断与过关标准",
+      "group": "学习导航",
+      "priority": "导学",
+      "questions": 0
+    },
+    {
+      "id": "guide/03-mock-interviews.md",
+      "title": "四场模拟面试与复盘模板",
+      "group": "学习导航",
+      "priority": "导学",
+      "questions": 0
+    },
+    {
+      "id": "guide/04-capstone.md",
+      "title": "综合练习：把知识串成可面试的工程证据",
+      "group": "学习导航",
+      "priority": "导学",
+      "questions": 0
+    },
+    {
+      "id": "guide/05-diagram-atlas.md",
+      "title": "机制图谱：先看、再讲、最后闭卷重画",
+      "group": "学习导航",
+      "priority": "导学",
+      "questions": 0
+    },
+    {
+      "id": "guide/06-knowledge-coverage.md",
+      "title": "知识覆盖矩阵：用它检查遗漏与学习深度",
+      "group": "学习导航",
+      "priority": "导学",
+      "questions": 0
+    },
+    {
+      "id": "modules/01-java-language.md",
+      "title": "01 Java 语言与代码设计",
+      "group": "Java 核心",
+      "priority": "P0",
+      "questions": 6
+    },
+    {
+      "id": "modules/02-collections.md",
+      "title": "02 集合、哈希与并发容器",
+      "group": "Java 核心",
+      "priority": "P0",
+      "questions": 6
+    },
+    {
+      "id": "modules/03-concurrency.md",
+      "title": "03 Java 并发与异步执行",
+      "group": "Java 核心",
+      "priority": "P0",
+      "questions": 6
+    },
+    {
+      "id": "modules/04-jvm.md",
+      "title": "04 JVM、垃圾回收与线上诊断",
+      "group": "Java 核心",
+      "priority": "P0",
+      "questions": 6
+    },
+    {
+      "id": "modules/05-spring.md",
+      "title": "05 Spring、Spring Boot 与事务边界",
+      "group": "Java 核心",
+      "priority": "P0",
+      "questions": 6
+    },
+    {
+      "id": "modules/06-mysql.md",
+      "title": "06 · MySQL：索引、事务与故障证据",
+      "group": "数据与分布式",
+      "priority": "P0",
+      "questions": 6
+    },
+    {
+      "id": "modules/07-redis.md",
+      "title": "07 · Redis：缓存、租约与一致性边界",
+      "group": "数据与分布式",
+      "priority": "P0",
+      "questions": 6
+    },
+    {
+      "id": "modules/08-messaging.md",
+      "title": "08 · 消息系统：投递、顺序、幂等与积压",
+      "group": "数据与分布式",
+      "priority": "P0",
+      "questions": 6
+    },
+    {
+      "id": "modules/09-distributed.md",
+      "title": "09 · 分布式：从不确定结果到可恢复协议",
+      "group": "数据与分布式",
+      "priority": "P0",
+      "questions": 6
+    },
+    {
+      "id": "modules/10-network-os.md",
+      "title": "10｜网络、Linux 与一次请求的完整路径",
+      "group": "系统工程",
+      "priority": "P0",
+      "questions": 6
+    },
+    {
+      "id": "modules/11-system-design.md",
+      "title": "11 · 系统设计：从约束推到可验证方案",
+      "group": "系统工程",
+      "priority": "P0",
+      "questions": 6
+    },
+    {
+      "id": "modules/12-reliability.md",
+      "title": "12 · 稳定性：SLO、监控、排障与容量验证",
+      "group": "系统工程",
+      "priority": "P0",
+      "questions": 6
+    },
+    {
+      "id": "modules/13-security-delivery.md",
+      "title": "13｜安全、测试与可控交付",
+      "group": "系统工程",
+      "priority": "P1",
+      "questions": 6
+    },
+    {
+      "id": "modules/14-algorithms.md",
+      "title": "14｜算法、数据结构与现场编码",
+      "group": "编码与面试",
+      "priority": "P0",
+      "questions": 6
+    },
+    {
+      "id": "modules/15-llm-foundations.md",
+      "title": "15｜LLM 基础：从模型机制到服务接口",
+      "group": "Agent 工程",
+      "priority": "P1",
+      "questions": 7
+    },
+    {
+      "id": "modules/16-rag.md",
+      "title": "16｜RAG：检索质量、权限与证据链",
+      "group": "Agent 工程",
+      "priority": "P1",
+      "questions": 7
+    },
+    {
+      "id": "modules/17-agent-architecture.md",
+      "title": "17｜Agent 架构：工具、状态、记忆与控制流",
+      "group": "Agent 工程",
+      "priority": "P1",
+      "questions": 7
+    },
+    {
+      "id": "modules/18-agent-production.md",
+      "title": "18｜Agent 生产工程：评测、安全、恢复与成本",
+      "group": "Agent 工程",
+      "priority": "P1",
+      "questions": 7
+    },
+    {
+      "id": "modules/19-project-interview.md",
+      "title": "19｜项目深挖、技术判断与面试表达",
+      "group": "编码与面试",
+      "priority": "P0",
+      "questions": 7
+    },
+    {
+      "id": "modules/20-java-language-deep.md",
+      "title": "20 Java 语言、标准库与接口设计深挖",
+      "group": "Java 核心",
+      "priority": "P0",
+      "questions": 27
+    },
+    {
+      "id": "modules/21-concurrency-jvm-deep.md",
+      "title": "21 并发工具、JVM 机制与诊断深挖",
+      "group": "Java 核心",
+      "priority": "P0",
+      "questions": 34
+    },
+    {
+      "id": "modules/22-spring-mybatis-deep.md",
+      "title": "22 Spring 容器、Web 调用链与 MyBatis 深挖",
+      "group": "Java 核心",
+      "priority": "P0",
+      "questions": 26
+    },
+    {
+      "id": "modules/23-database-sql-deep.md",
+      "title": "23 · 数据库与 SQL 深挖：从结果正确到故障恢复",
+      "group": "数据与分布式",
+      "priority": "P0",
+      "questions": 25
+    },
+    {
+      "id": "modules/24-cache-messaging-deep.md",
+      "title": "24 · Redis 与消息系统深挖：存储、复制与处理边界",
+      "group": "数据与分布式",
+      "priority": "P0",
+      "questions": 26
+    },
+    {
+      "id": "modules/25-governance-search-deep.md",
+      "title": "25 · 服务治理与搜索：从入口保护到索引一致性",
+      "group": "数据与分布式",
+      "priority": "P1",
+      "questions": 26
+    },
+    {
+      "id": "modules/26-llm-training-inference-deep.md",
+      "title": "26｜LLM 深入：模型机制、训练目标与推理工程",
+      "group": "Agent 工程",
+      "priority": "P1",
+      "questions": 20
+    },
+    {
+      "id": "modules/27-rag-memory-retrieval-deep.md",
+      "title": "27｜RAG 深入：检索、知识更新、评测与记忆",
+      "group": "Agent 工程",
+      "priority": "P1",
+      "questions": 20
+    },
+    {
+      "id": "modules/28-agent-protocol-delivery-deep.md",
+      "title": "28｜Agent 深入：协议、执行可靠性与 Java 交付",
+      "group": "Agent 工程",
+      "priority": "P1",
+      "questions": 20
+    },
+    {
+      "id": "modules/29-os-network-deep.md",
+      "title": "29｜操作系统、网络与 RPC 深挖",
+      "group": "系统工程",
+      "priority": "P0",
+      "questions": 20
+    },
+    {
+      "id": "modules/30-design-domain.md",
+      "title": "30｜代码设计、设计模式与领域建模",
+      "group": "系统工程",
+      "priority": "P1",
+      "questions": 20
+    },
+    {
+      "id": "modules/31-security-cloud-delivery.md",
+      "title": "31｜安全、云原生与交付深挖",
+      "group": "系统工程",
+      "priority": "P1",
+      "questions": 20
+    },
+    {
+      "id": "modules/32-algorithm-coding-deep.md",
+      "title": "32｜算法与现场编码：从不变量到可运行解法",
+      "group": "编码与面试",
+      "priority": "P0",
+      "questions": 20
+    },
+    {
+      "id": "modules/33-system-design-cases.md",
+      "title": "33｜系统设计案例：把机制串成可落地的方案",
+      "group": "系统工程",
+      "priority": "P0",
+      "questions": 10
+    },
+    {
+      "id": "modules/34-senior-engineering-scenarios.md",
+      "title": "34｜资深工程师场景：诊断、决策与技术影响力",
+      "group": "编码与面试",
+      "priority": "P0",
+      "questions": 12
+    },
+    {
+      "id": "labs/01-java-concurrency.md",
+      "title": "实验 01：用运行结果理解 Java 并发",
+      "group": "动手实验",
+      "priority": "实践",
+      "questions": 0
+    },
+    {
+      "id": "labs/02-consistency.md",
+      "title": "实验 02 · Outbox、崩溃窗口与业务幂等",
+      "group": "动手实验",
+      "priority": "实践",
+      "questions": 0
+    },
+    {
+      "id": "labs/03-agent-evaluation.md",
+      "title": "实验 03｜不需要 API key 的 Agent 评测与副作用验证",
+      "group": "动手实验",
+      "priority": "实践",
+      "questions": 0
+    },
+    {
+      "id": "labs/04-coding.md",
+      "title": "实验 04｜现场编码与边界验证",
+      "group": "动手实验",
+      "priority": "实践",
+      "questions": 0
+    },
+    {
+      "id": "labs/05-sql-worked.md",
+      "title": "实验 05 · SQL 手推与隔离执行核对",
+      "group": "动手实验",
+      "priority": "实践",
+      "questions": 0
+    },
+    {
+      "id": "practice/review-template.md",
+      "title": "我的学习与模拟记录",
+      "group": "学习导航",
+      "priority": "导学",
+      "questions": 0
+    }
+  ],
+  "cardCount": 445
+}

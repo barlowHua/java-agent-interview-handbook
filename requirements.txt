@@ -1,0 +1,2 @@
+# Only required to rebuild index.html; reading it needs no dependencies.
+mistune==3.1.3
